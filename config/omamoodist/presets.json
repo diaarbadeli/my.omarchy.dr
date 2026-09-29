@@ -1,0 +1,17 @@
+{
+  "Campfire-RainOnLeaves-VinylEffect": {
+    "sounds": {
+      "rain-on-leaves": 0.5,
+      "campfire": 0.5,
+      "vinyl-effect": 0.5
+    },
+    "master": 0.7,
+    "binaural": {
+      "on": false,
+      "mode": "isochronic",
+      "base": 100.0,
+      "beat": 10.0,
+      "gain": 0.25
+    }
+  }
+}
