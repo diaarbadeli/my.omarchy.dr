@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "enabled": false,
+  "notify": true,
+  "poolInitialized": false,
+  "nagsLeft": 3,
+  "pool": [],
+  "deck": [],
+  "lastAppliedSlug": "",
+  "lastBootId": "6fda1b0f-d5ec-4a59-b0a8-9aff6c0f9d60",
+  "history": [],
+  "transparency": 0,
+  "cornerRadius": 8,
+  "borderWidth": 2,
+  "schedule": {
+    "enabled": false,
+    "locationMode": "auto",
+    "latitude": null,
+    "longitude": null,
+    "locationLabel": "",
+    "slots": [
+      {
+        "id": "day",
+        "label": "Day",
+        "mode": "light",
+        "anchor": "sunrise",
+        "offsetMin": 0,
+        "deck": [],
+        "lastAppliedSlug": ""
+      },
+      {
+        "id": "night",
+        "label": "Night",
+        "mode": "dark",
+        "anchor": "sunset",
+        "offsetMin": 0,
+        "deck": [],
+        "lastAppliedSlug": ""
+      }
+    ],
+    "lastAppliedSlotId": "",
+    "override": {
+      "slug": "",
+      "untilTs": 0
+    },
+    "notifiedEmptyModeFor": ""
+  }
+}
