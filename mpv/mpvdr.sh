@@ -26,7 +26,7 @@ MODERNZ_TMP="$(mktemp -d)"
 SUB_COLOR="${SUB_COLOR:-#c7bfbf}"
 SUB_BORDER_COLOR="${SUB_BORDER_COLOR:-#1a1414}"
 SUB_BORDER_SIZE="${SUB_BORDER_SIZE:-3.5}"
-SUB_FONT_SIZE="${SUB_FONT_SIZE:-110}"
+SUB_FONT_SIZE="${SUB_FONT_SIZE:-90}"
 SUB_FONT="${SUB_FONT:-Vazirmatn}"
 
 # ---------- Output helpers ----------
