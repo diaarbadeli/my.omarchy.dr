@@ -4,7 +4,7 @@ Personal Omarchy configuration, scripts, and plugins.
 
 ## Contents
 
-- `setup-mpv.sh` — Idempotent MPV setup: subtitle fixes, custom theme, Vazirmatn font, ModernZ OSC.
+- `mpv.dr.sh` — Idempotent MPV setup: subtitle fixes, custom theme, Vazirmatn font, ModernZ OSC.
 
 ## MPV Setup
 

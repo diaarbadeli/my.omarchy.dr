@@ -6,7 +6,7 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd -- "$SCRIPT_DIR/.." && pwd)"
 
 PLUGIN_ID="io.github.aphelion-studios.omamoodist"
-PRESETS_SOURCE="$REPO_ROOT/config/omamoodist/presets.json"
+PRESETS_SOURCE="$REPO_ROOT/configs/omamoodist/presets.json"
 CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/moodist/config.json"
 
 echo "========================================"
