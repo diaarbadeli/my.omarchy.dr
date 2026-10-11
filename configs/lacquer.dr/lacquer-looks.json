@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "looks": [
+    {
+      "version": 1,
+      "slug": "lacquer-dr",
+      "name": "lacquer.dr",
+      "saved": "2026-10-10T23:52:42.709Z",
+      "theme": "solitude-dr",
+      "hypr": {
+        "overrides": {
+          "dwindle:split_width_multiplier": 0.5,
+          "scrolling:fullscreen_on_one_column": true,
+          "scrolling:column_width": 0.4,
+          "cursor:hide_on_key_press": true,
+          "cursor:warp_on_change_workspace": 2,
+          "decoration:dim_special": 0.75,
+          "decoration:inactive_opacity": 0.98,
+          "decoration:dim_inactive": true,
+          "decoration:active_opacity": 1,
+          "decoration:blur:enabled": false,
+          "decoration:glow:range": 12,
+          "decoration:glow:enabled": false,
+          "decoration:rounding": 4,
+          "decoration:shadow:sharp": true,
+          "decoration:shadow:enabled": true,
+          "decoration:shadow:range": 8,
+          "decoration:dim_strength": 0.1,
+          "decoration:rounding_power": 2,
+          "decoration:dim_around": 0.6,
+          "master:orientation": "left",
+          "master:mfact": 0.5,
+          "master:new_status": "slave",
+          "animations:workspace_wraparound": true,
+          "general:snap:enabled": false,
+          "general:gaps_out": 7,
+          "general:gaps_in": 3,
+          "general:layout": "master",
+          "general:border_size": 0
+        },
+        "curves": {
+          "lqMove": [
+            0.304,
+            -0.009,
+            0.03,
+            0.987
+          ]
+        },
+        "leaves": {
+          "border": {
+            "enabled": true,
+            "speed": 12,
+            "bezier": "lqMove",
+            "style": ""
+          },
+          "borderangle": {
+            "enabled": false,
+            "speed": 1,
+            "bezier": "",
+            "style": ""
+          },
+          "fade": {
+            "enabled": true,
+            "speed": 3,
+            "bezier": "easeInOutCubic",
+            "style": ""
+          },
+          "global": {
+            "enabled": true,
+            "speed": 1.74,
+            "bezier": "lqMove",
+            "style": ""
+          },
+          "layers": {
+            "enabled": true,
+            "speed": 0.1,
+            "bezier": "quick",
+            "style": "fade"
+          },
+          "specialWorkspace": {
+            "enabled": true,
+            "speed": 8,
+            "bezier": "lqMove",
+            "style": "slidefadevert 20%"
+          },
+          "windows": {
+            "enabled": true,
+            "speed": 3.79,
+            "bezier": "easeOutQuint",
+            "style": "popin 87%"
+          },
+          "workspaces": {
+            "enabled": true,
+            "speed": 3.23,
+            "bezier": "lqMove",
+            "style": "fade"
+          }
+        },
+        "opaque": true,
+        "desk": true,
+        "borders": {
+          "mode": "darker",
+          "amount": 0.3,
+          "angle": 90,
+          "inactive": false,
+          "groups": true
+        }
+      },
+      "shell": "[font]\nbase-size = 12\n\n[menu]\nbackground-alpha = 1\nborder-alpha      = 0.05\nscrim-alpha        = 0.5\nselected-background-alpha = 0.05\n\n[bar]\nbackground-alpha = 1\n\n[popups]\nborder-alpha = 0.05\nborder-width  = 1\n\n[tooltip]\nborder-alpha = 0.1\nbackground-alpha = 0.95\n\n[notifications]\nborder-alpha = 0.05\nborder-width  = 1\n\n[polkit]\nborder-alpha = 0.05\nbackground-alpha = 0.8\n\n[lock]\nborder-alpha = 0.05\n\n[image-picker]\nselected-border-alpha = 0.05\n\n[controls]\nnormal-border-width = 1\nnormal-border-alpha  = 0.2\nhover-cursor-border-alpha = 0.4\nhover-cursor-fill-alpha    = 0.1\nfocus-fill-alpha            = 0.1\nfocus-border-alpha           = 0.5\n\n",
+      "desktop": {
+        "textPx": 12,
+        "mono": "Recursive Mono Linear Static",
+        "ui": "Recursive Sans Linear Static",
+        "uiSize": 11,
+        "cursorTheme": "default",
+        "cursorSize": 24,
+        "pins": {
+          "icon-theme": "Yaru-sage-dark"
+        }
+      },
+      "text": {}
+    }
+  ]
+}
