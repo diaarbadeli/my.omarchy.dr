@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-CONFIG_URL="https://raw.githubusercontent.com/diaarbadeli/bindings.dr/main/bindings.lua"
+CONFIG_URL="https://raw.githubusercontent.com/diaarbadeli/my.omarchy.dr/refs/heads/main/configs/bindings.dr/bindings.lua"
 TARGET="$HOME/.config/hypr/bindings.lua"
 
 TEMP_CONFIG="$(mktemp)"
