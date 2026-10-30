@@ -25,7 +25,7 @@ hl.unbind("SUPER + CTRL + N") -- was nightlight
 o.bind("SUPER + B", "Browser", "omarchy-launch-browser")
 o.bind("SUPER + E", "Editor", "omarchy-launch-editor")
 o.bind("SUPER + CTRL + N", "Moodist", "omarchy-shell -q io.github.aphelion-studios.omamoodist toggle")
-o.bind("SUPER + SHIFT + H", "File manager", "omarchy-launch-nautilus")
+o.bind("SUPER + SHIFT + H", "File manager", "uwsm-app -- nautilus --new-window $HOME/dlo")
 o.bind("SUPER + SHIFT + CTRL + H", "File manager (cwd)", {omarchy = "nautilus-cwd"})
 o.bind("SUPER + SHIFT + M", "Cliamp", { tui = "cliamp", focus = true })
 -- Messaging
