@@ -1,6 +1,9 @@
 
 hl.unbind("SUPER + SHIFT + ALT + E") -- was new email
 hl.unbind("SUPER + SHIFT + ALT + A") -- was grok
+hl.unbind("SUPER + SHIFT + ALT + A") -- was grok
+hl.unbind("ALT + Alt_R") -- was default dictation
+hl.unbind("ALT + SPACE") -- was default dictation
 hl.unbind("SUPER + SHIFT + C") -- better AI
 hl.unbind("SUPER + SHIFT + X") -- better AI
 hl.unbind("SUPER + SHIFT + V") --  better AI
@@ -25,8 +28,8 @@ hl.unbind("SUPER + CTRL + N") -- was nightlight
 o.bind("SUPER + B", "Browser", "omarchy-launch-browser")
 o.bind("SUPER + E", "Editor", "omarchy-launch-editor")
 o.bind("SUPER + CTRL + N", "Moodist", "omarchy-shell -q io.github.aphelion-studios.omamoodist toggle")
-o.bind("SUPER + SHIFT + H", "File manager", "uwsm-app -- nautilus --new-window $HOME/dlo")
-o.bind("SUPER + SHIFT + CTRL + H", "File manager (cwd)", {omarchy = "nautilus-cwd"})
+o.bind("SUPER + SHIFT + H", "File manager", { launch = 'flea --gui "$HOME/dlo"'})
+o.bind("SUPER + SHIFT + CTRL + H", "File manager (cwd)", { launch = 'flea --gui "$(omarchy-cmd-terminal-cwd)"' })
 o.bind("SUPER + SHIFT + M", "Cliamp", { tui = "cliamp", focus = true })
 -- Messaging
 o.bind("SUPER + SHIFT + T", "Telegram", 'omarchy-launch-or-focus-webapp "Telegram" "https://web.telegram.org/a/"')
