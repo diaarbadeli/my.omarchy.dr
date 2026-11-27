@@ -1,4 +1,4 @@
-
+hl.unbind("SUPER + GRAVE")
 hl.unbind("SUPER + SHIFT + ALT + E") -- was new email
 hl.unbind("SUPER + SHIFT + ALT + A") -- was grok
 hl.unbind("SUPER + SHIFT + ALT + A") -- was grok
